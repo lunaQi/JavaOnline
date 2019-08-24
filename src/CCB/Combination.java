@@ -43,7 +43,7 @@ public class Combination {
         }
         int target = Integer.parseInt(br.readLine());
         List<List<Integer>> list = combinSum(candidates, target);
-        //System.out.println(list);
+        System.out.println(list);
         if (list.size() == 0) {
             System.out.println(-1);
             return;
